@@ -45,7 +45,7 @@
                                         $img = 'images/default_profile.png'
                                         @endphp
                                         @endif
-                                        <img width="150px" class="mb-3" src="{{ 'https://storage.googleapis.com/uas_bucket/' . $img }}">
+                                        <img width="150px" class="mb-3" src="{{ 'https://storage.googleapis.com/uas_bucket1/' . $img }}">
                                         <input type="file" class="form-control" name="image" value="{{$user->profile_path}}">
                                     </div>
                                     <div class="form-group">
